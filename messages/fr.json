@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "explore": "Explorer",
+    "host": "Devenir hôte",
+    "trips": "Mes réservations",
+    "login": "Se connecter"
+  },
+  "hero": {
+    "eyebrow": "",
+    "title": "Un chez-vous, partout en Algérie",
+    "subtitle": "Des riads d'Alger aux dunes de Timimoun, réservez un séjour chez l'habitant, pas dans un hôtel.",
+    "searchPlaceholder": "Où voulez-vous aller ?",
+    "checkin": "Arrivée",
+    "checkout": "Départ",
+    "cta": "Rechercher"
+  },
+  "listings": {
+    "title": "Séjours à découvrir",
+    "perNight": "/ nuit",
+    "viewMore": "Voir plus de logements"
+  },
+  "footer": {
+    "tagline": "DarDzair — trouvez votre dar, partout au pays.",
+    "rights": "Tous droits réservés."
+  },
+  "auth": {
+    "loginTitle": "Se connecter",
+    "signupTitle": "Créer un compte",
+    "email": "Email",
+    "password": "Mot de passe",
+    "fullName": "Nom complet",
+    "loginCta": "Se connecter",
+    "signupCta": "Créer mon compte",
+    "switchToSignup": "Pas encore de compte ? Inscrivez-vous",
+    "switchToLogin": "Déjà un compte ? Connectez-vous",
+    "error": "Une erreur est survenue. Vérifiez vos identifiants.",
+    "successSignup": "Compte créé ! Vérifiez votre email pour confirmer."
+  },
+  "listing": {
+    "back": "Retour aux annonces",
+    "guests": "voyageurs max",
+    "bookingTitle": "Réserver ce séjour",
+    "startDate": "Arrivée",
+    "endDate": "Départ",
+    "requestBooking": "Demander la réservation",
+    "loginRequired": "Connectez-vous pour réserver.",
+    "requestSent": "Demande envoyée ! L'hôte va la confirmer.",
+    "notFound": "Cette annonce n'existe pas ou plus."
+  },
+  "search": {
+    "resultsFor": "Résultats pour \"{city}\"",
+    "allResults": "Toutes les annonces",
+    "noResults": "Aucune annonce ne correspond à cette recherche."
+  },
+  "host": {
+    "newListingTitle": "Publier une annonce",
+    "titleLabel": "Titre",
+    "description": "Description",
+    "city": "Ville",
+    "price": "Prix par nuit (DA)",
+    "maxGuests": "Nombre de voyageurs max",
+    "photo": "Photo de l'annonce",
+    "publish": "Publier l'annonce",
+    "loginRequired": "Connectez-vous pour publier une annonce.",
+    "success": "Annonce publiée !",
+    "error": "Erreur lors de la publication.",
+    "dashboardTitle": "Mes réservations",
+    "noBookings": "Aucune demande de réservation pour l'instant.",
+    "confirm": "Confirmer",
+    "decline": "Refuser",
+    "guestLabel": "Voyageur",
+    "statusPending": "En attente",
+    "statusConfirmed": "Confirmée",
+    "statusCancelled": "Refusée"
+  },
+  "trips": {
+    "title": "Mes réservations",
+    "loginRequired": "Connectez-vous pour voir vos réservations.",
+    "noTrips": "Vous n'avez pas encore de réservation.",
+    "exploreLink": "Découvrir des séjours",
+    "statusPending": "En attente de confirmation",
+    "statusConfirmed": "Confirmée",
+    "statusCancelled": "Refusée par l'hôte"
+  }
+}

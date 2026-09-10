@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "explore": "استكشف",
+    "host": "كن مضيفًا",
+    "trips": "حجوزاتي",
+    "login": "تسجيل الدخول"
+  },
+  "hero": {
+    "eyebrow": "",
+    "title": "دارك في كل مكان بالجزائر",
+    "subtitle": "من رياضات الجزائر العاصمة إلى كثبان تيميمون، احجز إقامتك عند السكان المحليين، لا في فندق.",
+    "searchPlaceholder": "إلى أين تريد الذهاب؟",
+    "checkin": "تاريخ الوصول",
+    "checkout": "تاريخ المغادرة",
+    "cta": "ابحث"
+  },
+  "listings": {
+    "title": "إقامات للاكتشاف",
+    "perNight": "/ الليلة",
+    "viewMore": "شاهد المزيد من الإقامات"
+  },
+  "footer": {
+    "tagline": "دار الجزائر — دارك في كل مكان بالبلاد.",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "auth": {
+    "loginTitle": "تسجيل الدخول",
+    "signupTitle": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "fullName": "الاسم الكامل",
+    "loginCta": "تسجيل الدخول",
+    "signupCta": "إنشاء حسابي",
+    "switchToSignup": "ليس لديك حساب؟ سجّل الآن",
+    "switchToLogin": "لديك حساب بالفعل؟ سجّل الدخول",
+    "error": "حدث خطأ ما. تحقق من بياناتك.",
+    "successSignup": "تم إنشاء الحساب! تحقق من بريدك الإلكتروني للتأكيد."
+  },
+  "listing": {
+    "back": "العودة إلى الإقامات",
+    "guests": "ضيوف كحد أقصى",
+    "bookingTitle": "احجز هذه الإقامة",
+    "startDate": "تاريخ الوصول",
+    "endDate": "تاريخ المغادرة",
+    "requestBooking": "طلب الحجز",
+    "loginRequired": "سجّل الدخول للحجز.",
+    "requestSent": "تم إرسال الطلب! سيقوم المضيف بتأكيده.",
+    "notFound": "هذه الإقامة لم تعد موجودة."
+  },
+  "search": {
+    "resultsFor": "نتائج \"{city}\"",
+    "allResults": "كل الإقامات",
+    "noResults": "لا توجد إقامات مطابقة لهذا البحث."
+  },
+  "host": {
+    "newListingTitle": "نشر إقامة",
+    "titleLabel": "العنوان",
+    "description": "الوصف",
+    "city": "المدينة",
+    "price": "السعر لليلة الواحدة (دج)",
+    "maxGuests": "عدد الضيوف الأقصى",
+    "photo": "صورة الإقامة",
+    "publish": "نشر الإقامة",
+    "loginRequired": "سجّل الدخول لنشر إقامة.",
+    "success": "تم نشر الإقامة!",
+    "error": "حدث خطأ أثناء النشر.",
+    "dashboardTitle": "حجوزاتي",
+    "noBookings": "لا توجد طلبات حجز بعد.",
+    "confirm": "تأكيد",
+    "decline": "رفض",
+    "guestLabel": "الضيف",
+    "statusPending": "قيد الانتظار",
+    "statusConfirmed": "مؤكد",
+    "statusCancelled": "مرفوض"
+  },
+  "trips": {
+    "title": "حجوزاتي",
+    "loginRequired": "سجّل الدخول لرؤية حجوزاتك.",
+    "noTrips": "ليس لديك أي حجز بعد.",
+    "exploreLink": "اكتشف إقامات",
+    "statusPending": "بانتظار التأكيد",
+    "statusConfirmed": "مؤكد",
+    "statusCancelled": "مرفوض من طرف المضيف"
+  }
+}

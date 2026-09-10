@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "explore": "Explore",
+    "host": "Become a host",
+    "trips": "My trips",
+    "login": "Log in"
+  },
+  "hero": {
+    "eyebrow": "",
+    "title": "A home, everywhere in Algeria",
+    "subtitle": "From the riads of Algiers to the dunes of Timimoun, stay with locals, not in a hotel.",
+    "searchPlaceholder": "Where do you want to go?",
+    "checkin": "Check-in",
+    "checkout": "Check-out",
+    "cta": "Search"
+  },
+  "listings": {
+    "title": "Stays to discover",
+    "perNight": "/ night",
+    "viewMore": "See more stays"
+  },
+  "footer": {
+    "tagline": "DarDzair — find your dar, anywhere in the country.",
+    "rights": "All rights reserved."
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "signupTitle": "Create an account",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full name",
+    "loginCta": "Log in",
+    "signupCta": "Create my account",
+    "switchToSignup": "No account yet? Sign up",
+    "switchToLogin": "Already have an account? Log in",
+    "error": "Something went wrong. Check your credentials.",
+    "successSignup": "Account created! Check your email to confirm."
+  },
+  "listing": {
+    "back": "Back to listings",
+    "guests": "guests max",
+    "bookingTitle": "Book this stay",
+    "startDate": "Check-in",
+    "endDate": "Check-out",
+    "requestBooking": "Request to book",
+    "loginRequired": "Log in to book.",
+    "requestSent": "Request sent! The host will confirm.",
+    "notFound": "This listing no longer exists."
+  },
+  "search": {
+    "resultsFor": "Results for \"{city}\"",
+    "allResults": "All listings",
+    "noResults": "No listings match this search."
+  },
+  "host": {
+    "newListingTitle": "Publish a listing",
+    "titleLabel": "Title",
+    "description": "Description",
+    "city": "City",
+    "price": "Price per night (DA)",
+    "maxGuests": "Max guests",
+    "photo": "Listing photo",
+    "publish": "Publish listing",
+    "loginRequired": "Log in to publish a listing.",
+    "success": "Listing published!",
+    "error": "Something went wrong while publishing.",
+    "dashboardTitle": "My bookings",
+    "noBookings": "No booking requests yet.",
+    "confirm": "Confirm",
+    "decline": "Decline",
+    "guestLabel": "Guest",
+    "statusPending": "Pending",
+    "statusConfirmed": "Confirmed",
+    "statusCancelled": "Declined"
+  },
+  "trips": {
+    "title": "My trips",
+    "loginRequired": "Log in to see your trips.",
+    "noTrips": "You don't have any bookings yet.",
+    "exploreLink": "Discover stays",
+    "statusPending": "Awaiting confirmation",
+    "statusConfirmed": "Confirmed",
+    "statusCancelled": "Declined by host"
+  }
+}
