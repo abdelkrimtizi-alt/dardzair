@@ -1,40 +1,43 @@
 'use client';
 import { useState } from 'react';
 import { supabase } from '@/lib/supabase';
+import { useRouter } from 'next/navigation';
 
-export default function ForgotPassword() {
-  const [email, setEmail] = useState('');
+export default function ResetPassword() {
+  const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
+  const router = useRouter();
 
-  const handleReset = async (e) => {
+  const handleUpdatePassword = async (e) => {
     e.preventDefault();
-    const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${window.location.origin}/fr/reset-password`,
+    const { error } = await supabase.auth.updateUser({
+      password: password,
     });
 
     if (error) {
       setMessage('Erreur : ' + error.message);
     } else {
-      setMessage('Un e-mail de réinitialisation vous a été envoyé !');
+      setMessage('Mot de passe mis à jour avec succès !');
+      setTimeout(() => router.push('/'), 2000);
     }
   };
 
   return (
-    <form onSubmit={handleReset} className="max-w-md mx-auto p-4">
-      <h1 className="text-xl font-bold mb-4">Mot de passe oublié</h1>
+    <form onSubmit={handleUpdatePassword} className="max-w-md mx-auto p-4">
+      <h1 className="text-xl font-bold mb-4">Nouveau mot de passe</h1>
       <input
-        type="email"
-        placeholder="Votre e-mail"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
+        type="password"
+        placeholder="Saisissez votre nouveau mot de passe"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
         className="w-full border p-2 mb-4 rounded"
+        minLength={6}
         required
       />
-      <button type="submit" className="w-full bg-blue-600 text-white p-2 rounded">
-        Envoyer le lien
+      <button type="submit" className="w-full bg-green-600 text-white p-2 rounded">
+        Enregistrer
       </button>
       {message && <p className="mt-4 text-sm">{message}</p>}
     </form>
   );
 }
-
