@@ -1,6 +1,6 @@
 # DarDzair
 
-Clone d'Airbnb pour le marché algérien, trilingue (FR / AR / EN), identité visuelle inspirée du zellige et des couleurs du Sahara.
+Site pour le marché algérien, trilingue (FR / AR / EN), identité visuelle inspirée du zellige et des couleurs du Sahara.
 
 ## Stack
 
