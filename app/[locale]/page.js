@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { useTranslations } from "next-intl";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
