@@ -1,12 +1,12 @@
 export const dynamic = 'force-dynamic';
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import ListingCard from "../../components/ListingCard";
 import { getListings } from "../../lib/listings";
 
-function Footer() {
-  const t = useTranslations("footer");
+async function Footer() {
+  const t = await getTranslations("footer");
   return (
     <footer className="border-t border-majorelle/15 py-10">
       <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 text-sm text-ink/60">
@@ -18,7 +18,7 @@ function Footer() {
 }
 
 export default async function Home() {
-  const t = useTranslations("listings");
+  const t = await getTranslations("listings");
   const listings = await getListings();
 
   return (
