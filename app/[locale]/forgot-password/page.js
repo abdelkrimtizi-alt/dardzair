@@ -1,11 +1,10 @@
 'use client';
 import { useState } from 'react';
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
+import { supabase } from '@/lib/supabase';
 
 export default function ForgotPassword() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const supabase = createClientComponentClient();
 
   const handleReset = async (e) => {
     e.preventDefault();
